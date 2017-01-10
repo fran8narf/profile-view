@@ -1,0 +1,168 @@
+/***************/
+/**navigation**/
+/**************/
+
+.left_menu{
+	height: 100%;
+    position: relative;
+    width: 165px;
+	float:left;
+	z-index:10;
+}
+
+.left_nav, .left_menu ul{
+	width:100%;
+}
+
+
+.left_menu ul li{
+	background:#EEEEEE;
+	border:1px solid #DEE0E5;
+	border-radius:6px;
+	display:table;
+	height:125px;	
+	width:100%;
+	text-align:center;
+	vertical-align:middle;
+	margin:0 0 10px;
+	position:relative;
+	transition:all 0.5s ease-in;
+}
+
+.left_menu ul li:hover{
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.left_menu ul li.active, .left_menu ul li.show{
+	background:#FFFFFF;	
+	border-color:#DBDBEA;
+	opacity:1;
+}
+
+.left_menu ul li.active:after{
+	background: url("../images/tooltip.png") no-repeat scroll 0 0;
+    content: "";
+    display: block;
+    height: 37px;
+    margin: -18px 0 0;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    width: 17px;
+}
+
+.left_menu ul li a{
+	display:table-cell;
+	vertical-align:middle;
+	height:125px;	
+	font-size:16px;
+	color:#B9B9C8;
+	font-family:'AvenirLTStd-Light';
+	padding:0 10px;
+	transition:all 0.5s ease-out;
+}
+.left_menu ul li:hover a{
+	-webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+}
+.left_menu ul li.active a{
+	color:#323E52;
+}
+
+.left_menu ul li a .lock-icon{
+	width:23px;
+	height:31px;
+	display:block;
+	margin:12px auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -21px;
+}
+
+.left_menu ul li a .gauge-icon{
+	width:29px;
+	height:22px;
+	display:block;
+	margin:12px auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -278px;
+}
+
+.left_menu ul li a .chat-icon{
+	width:29px;
+	height:32px;
+	display:block;
+	margin:12px auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -52px;
+}
+
+.left_menu ul li a span.top-part{
+	display:block;
+	border-bottom:1px solid #DEE0E5;
+	vertical-align:middle;
+	padding:0 0 10px;
+	margin:0 0 10px;
+	text-align:left;
+}
+ 
+.left_menu ul li a span.top-part .small-chat-icon{
+	width:23px;
+	height:24px;
+	display:inline-block;
+	margin:0 auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -100px;
+	vertical-align:middle;
+} 
+
+.left_menu ul li a span.top-part .small-play-icon{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	margin:0 auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -125px;
+	vertical-align:middle;
+} 
+
+.left_menu ul li a span.top-part .small-mic-icon{
+	width:19px;
+	height:17px;
+	display:inline-block;
+	margin:0 auto 0;
+	background:url(../images/sprite.png) no-repeat 0 -146px;
+	vertical-align:middle;
+} 
+
+.left_menu ul li a span.repasos_num{
+	color:#B8B8C7;
+    display: block;
+    font-family: "AvenirLTStd-Light";
+    font-size: 13px;
+	width:50%;
+	float:left;
+	text-align:center;
+	line-height:13px;
+	border-right:1px solid #DEE0E5;
+}
+
+.left_menu ul li a span.repasos_num i, .left_menu ul li a span.nuevas_num i{
+	color:#323E52;
+	font-size:25px;
+	 line-height: 25px;
+	font-family:'AvenirLTStd-Light';
+	display:block;
+}
+
+.left_menu ul li a span.nuevas_num{
+	color:#B8B8C7;
+    display: block;
+    font-family: "AvenirLTStd-Light";
+    font-size: 13px;
+	width:50%;
+	float:left;
+	text-align:center;
+	line-height:13px;
+}
+
+
+/**************
+animation
+**************/

@@ -14,8 +14,9 @@
 	<link href="css/estilos.css" rel="stylesheet" type="text/css">
 	<link href="css/header.css" rel="stylesheet" type="text/css">
 	<link href="css/side-menu.css" rel="stylesheet" type="text/css">
-	<link href="css/popup_generico.css" rel="stylesheet" type="text/css">
-	<link href="css/pop-up.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" type="text/css" href="css/user-profile.css">
+
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>

@@ -60,10 +60,19 @@
 			  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'logros')">MIS LOGROS</a></li>
 			</ul>
 
-			<div id="datos" class="tabcontent"></div>
-			<div id="reto" class="tabcontent"></div>
-			<div id="estadisticas" class="tabcontent"></div>
-			<div id="logros" class="tabcontent"></div>
+			<div id="datos" class="tabcontent">
+				<h1>Mis datos</h1>
+			</div>
+
+			<div id="reto" class="tabcontent">
+				<h1>Reto diario</h1>
+			</div>
+			<div id="estadisticas" class="tabcontent">
+				<h1>Estadísticas</h1>
+			</div>
+			<div id="logros" class="tabcontent">
+				<h1>Mis logros</h1>
+			</div>
 
 		</div>	
 	</div><!--end wrapper-->
